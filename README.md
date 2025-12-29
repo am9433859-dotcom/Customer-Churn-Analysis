@@ -1,6 +1,14 @@
 # Customer-Churn-Analysis
 Exploratory data analysis and visualization of customer churn dataset using Python
 
+**Project Structure**
+ data/  
+  Contains the customer churn dataset used for analysis.
+- notebooks/  
+  Jupyter Notebook with data cleaning, EDA, and insights.
+- README.md  
+  Project documentation and overview.
+
 **Project Overview**
 This project analyzes customer churn behavior using Python.  
 The goal is to identify factors that influence customer churn and provide business insights.
@@ -25,6 +33,10 @@ The goal is to identify factors that influence customer churn and provide busine
 - Data visualization
 
 **Key Insights**
-- Customers who raised complaints churn more
-- Churned customers usually have lower tenure
-- Higher cashback is associated with lower churn  
+- Customers with shorter tenure are more likely to churn
+- Higher cashback amount reduces churn probability
+- Customers who raised complaints have a higher churn rate
+- City Tier and Order Category show churn behavior differences
+
+** Conclusion**
+This analysis helps identify key factors influencing customer churn and can assist businesses in improving customer retention strategies.
